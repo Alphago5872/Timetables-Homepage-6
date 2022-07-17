@@ -1,0 +1,17 @@
+.timeBox {
+  display: flex;
+  flex-direction: row;
+
+  &__bigCard {
+    width: 100%;
+    height: 200px;
+    background-color: #dbdbdb;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    &--smallCard {
+    }
+  }
+}
